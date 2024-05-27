@@ -7,7 +7,7 @@ export function Race() {
         <>
             <h1>Race</h1>
             <button>
-                <Link to="Home">
+                <Link to="/">
                     torna alla Home
                 </Link>
             </button>

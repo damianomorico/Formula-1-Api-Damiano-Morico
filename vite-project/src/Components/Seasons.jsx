@@ -24,7 +24,7 @@ export function Seasons() {
             </button>
 
             <button>
-                <Link to="Home">
+                <Link to="/">
                     torna alla Home
                 </Link>
             </button>

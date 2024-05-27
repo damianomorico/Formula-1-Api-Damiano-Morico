@@ -14,7 +14,7 @@ class App extends Component {
       <>
         < Router >
           < Routes >
-            <Route path="" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="seasons">
               <Route path="" element={<Seasons />} />
               <Route path=":seasonId">
@@ -26,7 +26,7 @@ class App extends Component {
           </Routes>
         </Router >
       </>
-    )
+    );
   }
 }
 
